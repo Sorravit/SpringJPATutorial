@@ -1,6 +1,7 @@
 package org.example.springjpatutorial.model;
 
 
+import io.swagger.v3.oas.annotations.Hidden;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -11,6 +12,7 @@ import lombok.Data;
 @Data //TODO doesn't work for some reason, fix that latter
 public class Book {
     @Id
+    @Hidden
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String isbn;
