@@ -1,10 +1,10 @@
-package org.example.springjpatutorial.controller;
+package sorravit.example.springjpaexample.controller;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
-import org.example.springjpatutorial.model.Book;
-import org.example.springjpatutorial.service.BookService;
+import sorravit.example.springjpaexample.model.Book;
+import sorravit.example.springjpaexample.service.BookService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

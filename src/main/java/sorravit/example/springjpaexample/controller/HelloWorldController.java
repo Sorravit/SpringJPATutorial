@@ -1,4 +1,4 @@
-package org.example.springjpatutorial.controller;
+package sorravit.example.springjpaexample.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

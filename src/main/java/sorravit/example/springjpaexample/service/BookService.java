@@ -1,7 +1,7 @@
-package org.example.springjpatutorial.service;
+package sorravit.example.springjpaexample.service;
 
-import org.example.springjpatutorial.model.Book;
-import org.example.springjpatutorial.repository.BookRepository;
+import sorravit.example.springjpaexample.model.Book;
+import sorravit.example.springjpaexample.repository.BookRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

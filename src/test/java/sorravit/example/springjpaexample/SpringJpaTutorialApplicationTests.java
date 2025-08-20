@@ -1,10 +1,10 @@
-package org.example.springjpatutorial;
+package sorravit.example.springjpaexample;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringJpaTutorialApplicationTests {
+class SpringJPAExampleApplicationTests {
 
     @Test
     void contextLoads() {

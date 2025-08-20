@@ -10,7 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-- Java 17 or _higher_
+- Java 21 or _higher_
 - Gradle
 - MySQL
 
@@ -18,12 +18,12 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Clone the repository
 ```shell
-git clone https://github.com/Sorravit/SpringJPATutorial.git
+git clone https://github.com/Sorravit/SpringJPAExample.git
 ```
 
 2. Navigate to the project directory
 ```shell
-cd SpringJPATutorial
+cd SpringJPAExample
 ```
 
 3. Build the project
@@ -61,6 +61,7 @@ Here are the curl commands to test the API endpoints:
 
 1. Create a new book:
     <br>*Note that isbn is unique and required for each book*
+    <br>*Insert with this command more than one time will result in an error*
 ```shell
 curl -X POST http://localhost:8080/books \
   -H "Content-Type: application/json" \

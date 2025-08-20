@@ -1,4 +1,4 @@
-package org.example.springjpatutorial.model;
+package sorravit.example.springjpaexample.model;
 
 
 import io.swagger.v3.oas.annotations.Hidden;
