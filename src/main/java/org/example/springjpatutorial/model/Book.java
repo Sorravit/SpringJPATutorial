@@ -2,10 +2,7 @@ package org.example.springjpatutorial.model;
 
 
 import io.swagger.v3.oas.annotations.Hidden;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Data;
 
 @Entity
@@ -15,6 +12,8 @@ public class Book {
     @Hidden
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    //make sure that the ISBN is unique
+    @Column(unique = true, nullable = false)
     private String isbn;
     private String title;
     private String author;
